@@ -5,6 +5,7 @@ A software for downloading screenshots from the lightshot website
 ```bash
 git clone https://github.com/rodukov/lightextender
 cd lightextender
+pip3 install -r requirements.txt
 ```
 
 ## Example of use
