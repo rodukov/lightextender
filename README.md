@@ -1,6 +1,6 @@
 # lightextender
 A software for downloading screenshots from the lightshot website
-<img align="center" alt="Preview" src="preview.png"/>
+<img align="center" alt="Preview" style="padding: 10px; " src="preview.png"/>
 ## Let's install it!
 ```bash
 git clone https://github.com/rodukov/lightextender
