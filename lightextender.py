@@ -36,7 +36,11 @@ class lightextender:
 			system("mkdir images")
 		if _source_url != False:
 			return system("wget -P images/ -q "+ _source_url)
-	def download(_sorce_url: str):
+	def download(_source_url: str):
 		"""This function downloads the picture using the urlretrieve"""
-		urllib.request.urlretrieve(_sorce_url, _sorce_url[32:])
-
+		urllib.request.urlretrieve(_source_url, _source_url[32:])
+	def download_content(_source_url: str):
+		"""This function downloads the picture using the requests.get"""
+		if type(_source_url) not in [' ', bool]:
+			_output_url = _source_url.replace("https://i.imgur.com/", "").replace("https://image.prntscr.com/image/", "")
+			open(f"images/{_output_url}", "wb").write(get(_source_url).content)
