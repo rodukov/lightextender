@@ -1,3 +1,9 @@
+<div align=center>
+  
+  <img src="https://github.com/user-attachments/assets/475e0f97-950a-4c87-9796-7fe8bd63bb53" width=180px>
+  
+</div>
+
 # lightextender
 A software for downloading screenshots from the lightshot website
 <img align="center" alt="Preview" src="preview.png"/>
